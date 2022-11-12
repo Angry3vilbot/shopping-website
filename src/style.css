@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-color: rgb(31, 31, 31) #040405;
+    scrollbar-width: thin;
+}
+body{
+    background-color: #16161a;
+}
+header{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    padding-left: 25px;
+}
+header nav{
+    margin-right: 25px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 15px;
+}
+header nav a{
+    color: white;
+    font-size: 18px;
+}
+.App{
+    color: white;
+}
+.App div{
+    display: flex;
+    flex-direction: column;
+}
+.App h1{
+    align-self: center;
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.App section{
+    height: 90vh;
+    width: 90vw;
+    background-image: url('./images/backgroundimage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.App section button{
+    width: 125px;
+    height: 40px;
+    margin-top: 75px;
+    background-color: #7f5af0;
+    box-shadow: 0px 0px 5px #7d54fa;
+    border: none;
+    color: white;
+}
+.App section button:hover{
+    background-color: #7548fc;
+    box-shadow: 0px 0px 10px #7548fc;
+    cursor: pointer;
+}
+.App section div{
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.App section div p{
+    color: #7f5af0;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #7d54fa;
+}
+.App section div h2{
+    font-size: 32px;
+    text-shadow: 0px 0px 5px #ffffffa9;
+}
+.App section div h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.App section .endurance{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.App section .brilliance{
+    text-shadow: 0px 0px 5px #ffffffa9;
+}
+.catalogue-container{
+    display: flex;
+    flex-direction: column;
+}
+.catalogue-container h1{
+    color: white;
+    align-self: center;
+}
+.catalogue-container section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-auto-columns: 1fr;
+    margin-top: 25px;
+    margin-left: 50px;
+    gap: 80px;
+}
+.product-card{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 475px;
+}
+.product-card p, .product-card h4{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.product-card img{
+    width: 275px;
+    height: 250px;
+    align-self: center;
+    padding-bottom: 15px;
+}
+.product-card button{
+    width: 150px;
+    height: 25px;
+    background-color: #7f5af0;
+    box-shadow: 0px 0px 5px #7d54fa;
+    border: none;
+    color: white;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+.product-card button:hover{
+    background-color: #7548fc;
+    box-shadow: 0px 0px 10px #7548fc;
+    cursor: pointer;
+}
+.product-card button:active{
+    background-color: #5f2aff;
+}
+.product-card .button-locked{
+    width: 150px;
+    height: 25px;
+    background-color: #4e4663;
+    box-shadow: 0px 0px 10px #47347e;
+    border: none;
+    color: white;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+.product-card .button-locked:hover{
+    cursor: not-allowed;
+    background-color: #4e4663;
+    box-shadow: 0px 0px 10px #47347e;
+}
+.prev-price{
+    color: grey;
+    text-decoration: line-through;
+}
+.new-price{
+    color: red;
+    padding-left: 15px;
+}
+.low-stock{
+    color: orange;
+    font-size: 14px;
+}
+.new-item{
+    color: #7f5af0;
+    text-shadow: 0px 0px 5px #7d54fa;
+}
+.unavailable{
+    color: #e92f00;
+    padding-left: 15px;
+}
+.shopping-cart-container{
+    color: white;
+    display: grid;
+}
+.shopping-cart-container h1{
+    justify-self: center;
+}
+.empty-cart-text{
+    justify-self: center;
+    padding-top: 5%;
+}
+.empty-cart-text a{
+    text-decoration: underline dashed;
+    color:#391d8a;
+}
+.empty-cart-text a:hover{
+    color:#5536b3;
+}
+.cart-item{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 9%;
+}
+.cart-item p{
+    font-size: large;
+    align-self: center;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.cart-item input{
+    align-self: center;
+    width: 50px;
+    height: 25%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: large;
+}
+.cart-item img{
+    width: 125px;
+    height: 100px;
+}
