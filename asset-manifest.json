@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-website.git/static/css/main.9d8d189e.css",
-    "main.js": "/shopping-website.git/static/js/main.2204622c.js",
+    "main.js": "/shopping-website.git/static/js/main.b99a31b5.js",
     "static/media/flex5i.png": "/shopping-website.git/static/media/flex5i.ac97c05bfad2be88ebab.png",
     "static/media/backgroundimage.png": "/shopping-website.git/static/media/backgroundimage.9e595b0e265c27e50f8f.png",
     "static/media/nitro5.png": "/shopping-website.git/static/media/nitro5.cec581cd260e6b413bc8.png",
@@ -21,10 +21,10 @@
     "static/media/victus.png": "/shopping-website.git/static/media/victus.8902ea64b15f2cca623d.png",
     "index.html": "/shopping-website.git/index.html",
     "main.9d8d189e.css.map": "/shopping-website.git/static/css/main.9d8d189e.css.map",
-    "main.2204622c.js.map": "/shopping-website.git/static/js/main.2204622c.js.map"
+    "main.b99a31b5.js.map": "/shopping-website.git/static/js/main.b99a31b5.js.map"
   },
   "entrypoints": [
     "static/css/main.9d8d189e.css",
-    "static/js/main.2204622c.js"
+    "static/js/main.b99a31b5.js"
   ]
 }
