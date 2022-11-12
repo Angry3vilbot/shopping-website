@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/shopping-website.git/static/css/main.9d8d189e.css",
+    "main.js": "/shopping-website.git/static/js/main.f049436d.js",
+    "static/media/flex5i.png": "/shopping-website.git/static/media/flex5i.ac97c05bfad2be88ebab.png",
+    "static/media/backgroundimage.png": "/shopping-website.git/static/media/backgroundimage.9e595b0e265c27e50f8f.png",
+    "static/media/nitro5.png": "/shopping-website.git/static/media/nitro5.cec581cd260e6b413bc8.png",
+    "static/media/hp15.png": "/shopping-website.git/static/media/hp15.99972eca39f6839fd5fb.png",
+    "static/media/tuf15.png": "/shopping-website.git/static/media/tuf15.09aaf4533487b1d9069d.png",
+    "static/media/swiftx.png": "/shopping-website.git/static/media/swiftx.9a75cc72536fc08016a1.png",
+    "static/media/triton500.png": "/shopping-website.git/static/media/triton500.3c218a6ca266e5627eaa.png",
+    "static/media/gv15.png": "/shopping-website.git/static/media/gv15.5dd2f6ebeec609b2dcc9.png",
+    "static/media/scar15.png": "/shopping-website.git/static/media/scar15.d5188a279646e9104748.png",
+    "static/media/pavilion15.png": "/shopping-website.git/static/media/pavilion15.da58d329943cebb226a6.png",
+    "static/media/hp17.png": "/shopping-website.git/static/media/hp17.9b9b5510ac754d3ab463.png",
+    "static/media/asp5.png": "/shopping-website.git/static/media/asp5.615b341660ff2fa1e275.png",
+    "static/media/dash15.png": "/shopping-website.git/static/media/dash15.5415abd169c53812511f.png",
+    "static/media/gl66.png": "/shopping-website.git/static/media/gl66.55b8434271eb0329870b.png",
+    "static/media/produo.png": "/shopping-website.git/static/media/produo.f6cb7ae949b0dd8161fe.png",
+    "static/media/m16.png": "/shopping-website.git/static/media/m16.005e20c81a4dbacd25c9.png",
+    "static/media/victus.png": "/shopping-website.git/static/media/victus.8902ea64b15f2cca623d.png",
+    "index.html": "/shopping-website.git/index.html",
+    "main.9d8d189e.css.map": "/shopping-website.git/static/css/main.9d8d189e.css.map",
+    "main.f049436d.js.map": "/shopping-website.git/static/js/main.f049436d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d8d189e.css",
+    "static/js/main.f049436d.js"
+  ]
+}
