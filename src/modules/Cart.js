@@ -18,7 +18,7 @@ const Cart = (props) =>{
             <div>
             <div className="shopping-cart-container">
                 <h1>Shopping Cart</h1>
-                <h3 className='empty-cart-text'>Your cart is empty! Go add something to it in the <a href="/shopping-website/catalogue">Catalogue</a></h3>
+                <h3 className='empty-cart-text'>Your cart is empty! Go add something to it in the <a href="/catalogue">Catalogue</a></h3>
             </div>
         </div>
         )
